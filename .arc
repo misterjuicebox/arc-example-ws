@@ -8,3 +8,12 @@ test-ws
 
 @http
 get /
+
+@tables
+connections
+    connectionId *String
+
+@static
+staging mjj-example-ws-staging
+production mjj-example-ws-production
+
